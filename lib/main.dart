@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:practice_clean_architecture/router/binding.dart';
-import 'package:practice_clean_architecture/screen/home_screen.dart';
+import 'package:practice_clean_architecture/screen/home_screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
