@@ -8,7 +8,7 @@
 
 ## Architecture
 
-
+```
 ├─lib
 │  ├─data           // Service Layor
 │  │  ├─core
@@ -32,3 +32,4 @@
 │  │        ├─screen.dart               // User Interface
 │  │        ├─screen_view_model.dart    // View Model Controller
 │  │        ├─screen_binding.dart       // Dependency Injection
+```
