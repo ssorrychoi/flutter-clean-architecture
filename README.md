@@ -1,16 +1,34 @@
 # practice_clean_architecture
 
-A new Flutter project.
+`Freezed` library를 이용한 clean architecture
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+`flutter packages pub run build_runner build --delete-conflicting-outputs` 명령어로 code generate를 생성한다
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+├─lib
+│  ├─data           // Service Layor
+│  │  ├─core
+│  │  ├─country
+│  │  ├─long_weekend
+│  │  ├─version
+│  │
+│  ├─domain         // Domain Layor
+│  │    ├─model     // Object
+│  │        ├─country
+│  │        ├─long_weekend
+│  │        ├─version
+│  │
+│  ├─use_case       // UseCase
+│  │    ├─country
+│  │    ├─long_weekend
+│  │    ├─version
+│  │
+│  ├─screen         // User Interface
+│  │   ├─calculated_holidays
+│  │        ├─screen.dart               // User Interface
+│  │        ├─screen_view_model.dart    // View Model Controller
+│  │        ├─screen_binding.dart       // Dependency Injection
