@@ -79,7 +79,7 @@ packages:
     source: hosted
     version: "7.2.3"
   built_collection:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: built_collection
       url: "https://pub.dartlang.org"
@@ -155,6 +155,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.3"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.6"
   fake_async:
     dependency: transitive
     description:
@@ -319,6 +326,41 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  one_of:
+    dependency: transitive
+    description:
+      name: one_of
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.5.0"
+  one_of_serializer:
+    dependency: transitive
+    description:
+      name: one_of_serializer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.5.0"
+  openapi:
+    dependency: "direct main"
+    description:
+      path: "../date-negar"
+      relative: true
+    source: path
+    version: "1.0.0"
+  openapi_generator_annotations:
+    dependency: "direct main"
+    description:
+      name: openapi_generator_annotations
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.0"
+  openapi_generator_cli:
+    dependency: "direct main"
+    description:
+      name: openapi_generator_cli
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.0"
   package_config:
     dependency: transitive
     description:
@@ -354,6 +396,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.1"
+  quiver:
+    dependency: transitive
+    description:
+      name: quiver
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.2.1"
   shelf:
     dependency: transitive
     description:

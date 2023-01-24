@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:practice_clean_architecture/router/routes.dart';
 import 'package:practice_clean_architecture/screen/home_screen/home_view_model.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -30,6 +31,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 screenViewModel.homeState.count.toString(),
                 style: Theme.of(context).textTheme.headline4,
               ),
+            ),
+            TextButton(
+              onPressed: () {
+                Get.toNamed(Routes.dateCountriesScreen);
+              },
+              child: Text('Calculated Long Weekend'),
             ),
           ],
         ),
